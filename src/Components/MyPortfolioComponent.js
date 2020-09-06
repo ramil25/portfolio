@@ -14,7 +14,17 @@ let projects =[{
   description:"Tagalog Picture Dictionary"
 },
 {
+  id: 3,
+  name:"KulPop",
+  description:"An Filipino subject tutorial about media for students"
+},
+{
   id: 4,
+  name:"Wikabulary",
+  description:"An Filipino Vocabulary Games for students"
+},
+{
+  id: 5,
   name:"React Project Advance Crud",
   description:"A project that made by react with advance Crud and Bootstrap 4"
 }];
