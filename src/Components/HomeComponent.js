@@ -1,14 +1,14 @@
 import React,{useEffect} from 'react';
 import Navbar from './NavComponent';
 
-const Home =({}) =>{
+const Home =() =>{
 const title = "Home";
 function myMove() {
     var elem = document.getElementById("animate");
     var pos = 0;
     var id = setInterval(frame, 5);
     function frame() {
-      if (pos == 100) {
+      if (pos === 100) {
         clearInterval(id);
       } else {
         pos+=0.5;
@@ -28,7 +28,7 @@ return(
             <div className="col-sm-12 home-info">
             <div className="text-center mt-5">
                 <h2 className="">Welcome to My Web Portfolio!!!</h2>
-                <img src="/images/1.jpg" width="200" height="200" className="border rounded-circle border-light" />
+                <img alt="profile" src="/images/1.jpg" width="200" height="200" className="border rounded-circle border-light" />
             </div>
             <div className="text-center mt-3 text-light text-stroke">
                 <h3>Ramil L. Kaharian</h3>
