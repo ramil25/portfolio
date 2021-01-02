@@ -24,7 +24,11 @@ return(
     <>
     <Navbar setTitle={title} />
     <div className="container" id="animate">
-
+    <div className="row">
+    <div className="col-12">
+    <h1 className="mt-3">Hello World</h1>
+    </div>
+    </div>
     </div>
     </>
 );
