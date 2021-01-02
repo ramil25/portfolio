@@ -24,12 +24,17 @@ const NavBar =({setTitle}) =>{
         <>
         <nav className="navbar sticky-top navbar-nav navbar-expand-lg navbar-dark bg-danger">
         <span className="navbar-brand mr-auto ml-3" onClick={()=>{history.push("")}}>{setTitle}</span>
-        <ul className="navbar-nav ml-autocol-sm-12">
+        <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+  <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <ul className="navbar-nav ml-auto">
             <li onClick={NavigationHandler} className="btn nav-item text-light mr-4">Home</li>
             <li onClick={NavigationHandler} className=" btn nav-item text-light mr-4">About Me</li>
             <li onClick={NavigationHandler} className=" btn nav-item text-light mr-4">My Portfolio</li>
             <li onClick={NavigationHandler} className="btn nav-item text-light mr-4">Contact Me</li>
         </ul>
+        </div>
         </nav>
         </>
     );

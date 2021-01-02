@@ -23,10 +23,30 @@ function myMove() {
 return(
     <>
     <Navbar setTitle={title} />
-    <div className="container" id="animate">
+    <div className="container-fluid mt-3" id="animate">
     <div className="row">
-    <div className="col-12">
-    <h1 className="mt-3">Hello World</h1>
+    <div className="col-3">
+    
+    </div>
+    <div className="col-md-6 col-sm-12 text-center p-1">
+      <div className="header bg-secondary t-0 b-0">
+    <h2 className="text-light p-3">Contact me at the following:</h2>
+    </div>
+    <div className="bg-danger text-light t-0 b-0">
+    <h3>Email Address:</h3>
+    <b>ramilkaharian25@gmail.com</b>
+    </div>
+    <div className="bg-warning text-light t-0 b-0">
+    <h3>Contact Number:</h3>
+    <b>+639969874926</b>
+    </div>
+    <div className="bg-primary text-light t-0 b-0">
+    <h3>Facebook Account:</h3>
+    <b>Ramil Lapitan Kaharian</b>
+    </div>
+    </div>
+    <div className="col-3">
+    
     </div>
     </div>
     </div>
